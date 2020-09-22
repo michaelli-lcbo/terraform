@@ -14,7 +14,7 @@ provider "azurerm" {
 +  backend "remote" {
 +    organization = "sanheli"
 +    workspaces {
-+      name = "Example-Workspace"
++      name = "terraform"
 +    }
 +  }
 }
